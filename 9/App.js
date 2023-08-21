@@ -9,6 +9,8 @@ function reverse(listItem) {
         prev = current;
         current = next;
     }
+
+    return prev;
 }
 
 const item3 = {
@@ -28,6 +30,4 @@ const item1 = {
 
 console.log(item1);
 
-reverse(item1);
-
-console.log(item3);
+console.log(reverse(item1));
