@@ -17,7 +17,7 @@ function DFS(node, resArr) {
 }
 
 function solution(node) {
-    res = [];
+    let res = [];
 
     DFS(node, res);
 
