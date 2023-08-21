@@ -24,4 +24,4 @@ function primeNumbers(num) {
     return res;
 }
 
-console.log(primeNumbers(50));
+console.log(primeNumbers(11));
