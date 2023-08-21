@@ -1,4 +1,4 @@
-function switchEl(arr, a, b) {
+export function switchEl(arr, a, b) {
     const el = arr[b];
     arr[b] = arr[a];
     arr[a] = el;
@@ -31,7 +31,7 @@ function selectionSort(arr) {
 const test = [5, 3, 2, 1, 4, 7, 6];
 const test2 = [2, 1];
 const test3 = [];
-const test4 = [-1, 2, -3, 1, -2];
+const test4 = [-1, 2, -3, 1, -2, 0];
 
 console.log(selectionSort(test));
 console.log(selectionSort(test2));
