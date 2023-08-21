@@ -1,5 +1,4 @@
 function DFS(node, resArr) {
-    console.log(resArr);
     const val = node['val'];
     const left = node['left'];
     const right = node['right'];
